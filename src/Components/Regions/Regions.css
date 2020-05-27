@@ -1,0 +1,40 @@
+.Regions {
+  margin-top: 90px;
+}
+
+.card-container-region {
+  display: grid;
+  /* grid-template-columns:repeat(4,1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-column-gap: 40px;
+  grid-row-gap: 80px;
+  margin-left: 30px;
+  margin-top: 83px;
+}
+
+.Card {
+  width: 217px;
+  border-radius: 10px;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.Main-button.MuiButton-textPrimary.MuiButton-textSizeSmall.MuiButton-sizeSmall {
+  background-color: #483d8b;
+  color: white;
+  width: 109px;
+}
+
+.image {
+  width: 218px;
+  height: 146px;
+  margin: 0 auto;
+}
+.Card-Text {
+  opacity: 0.7;
+}
+
+#back-home-regions {
+  margin-top: 100px;
+  margin-left: 30px;
+  outline: none;
+  text-decoration: none;
+}

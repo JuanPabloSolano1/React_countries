@@ -1,0 +1,54 @@
+.Country-name {
+  margin-top: 120px;
+  margin-left: 40px;
+}
+.container-information {
+  display: flex;
+  margin-left: 40px;
+}
+.country-information {
+  margin-left: 120px;
+  margin-top: 80px;
+  width: 420px;
+}
+
+.country-image {
+  width: 600px;
+  height: 450px;
+}
+
+.country-secondary-information {
+  padding-left: 90px;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.back-button {
+  color: white;
+  background-color: #6d757d;
+  width: 82px;
+  height: 34px;
+  padding-right: 26px;
+  outline: none;
+  text-decoration: none;
+}
+
+svg.MuiSvgIcon-root.arrow {
+  padding-bottom: 1px;
+  padding-right: 0px;
+}
+
+.unique-country-title {
+  margin-top: 40px;
+}
+
+.borders {
+  display: flex;
+}
+.border {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  background-color: #6d757d;
+  color: white;
+  border-radius: 10px;
+}
